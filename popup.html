@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Ciutat Respira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>LA CIUTAT RESPIRA</h1>
+    <p>El temps a través de la ciutat</p>
+  </header>
+
+  <main>
+    <div id="ciutat">
+      <!-- Aquí apareixerà l'animació de p5.js -->
+    </div>
+
+    <div class="hora">
+      <span>HORA ACTUAL</span>
+      <strong id="rellotge">--:--:--</strong>
+    </div>
+
+
+<div class="temporitzador">
+  <p>TEMPS DE CONCENTRACIÓ</p>
+  <strong id="tempsRestant">25:00</strong>
+  <p id="missatgeTemporitzador">Preparada per concentrar-te?</p>
+  <div class="controls-temporitzador">
+    <button id="botoIniciaTemps">Començar</button>
+    <button id="botoPausaTemps">Pausa</button>
+    <button id="botoReiniciaTemps">Reiniciar</button>
+  </div>
+</div>
+
+
+    <div class="controls">
+      <button id="botoPausa">Pausa</button>
+      <button id="botoReinicia">Reinicia</button>
+    </div>
+
+    <div class="control-velocitat">
+      <label for="velocitat">Velocitat de l'animació</label>
+      <input
+        type="range"
+        id="velocitat"
+        min="0.5"
+        max="2"
+        step="0.5"
+        value="1"
+      >
+      <span id="valorVelocitat">1×</span>
+    </div>
+  </main>
+
+  <footer>
+    <p>Creat per Núria Camps Camps</p>
+  </footer>
+
+  <script src="p5.min.js"></script>
+  <script src="sketch.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

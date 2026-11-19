@@ -1,0 +1,149 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 340px;
+  margin: 0;
+  padding: 16px;
+  background: #17223b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+h1 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 0 0 6px;
+}
+
+header p {
+  color: #cbd5e1;
+  font-size: 12px;
+  margin: 0;
+}
+
+#ciutat {
+  width: 300px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #0f1632;
+}
+
+#ciutat canvas {
+  display: block;
+}
+
+.hora {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.hora span {
+  color: #cbd5e1;
+  font-size: 11px;
+}
+
+.hora strong {
+  color: #f7d794;
+  font-size: 19px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 9px;
+  border: 0;
+  border-radius: 6px;
+  background: #f7d794;
+  color: #17223b;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffe6aa;
+}
+
+.control-velocitat {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.control-velocitat label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="range"] {
+  width: 245px;
+  accent-color: #f7d794;
+  vertical-align: middle;
+}
+
+#valorVelocitat {
+  color: #f7d794;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 14px;
+  color: #aebbd0;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+/* Temporitzador de concentració */
+.temporitzador {
+  margin-top: 16px;
+  padding: 12px;
+  background: #243451;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.temporitzador p:first-child {
+  margin: 0 0 8px;
+  color: #cbd5e1;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+#tempsRestant {
+  display: block;
+  margin: 8px 0;
+  color: #f7d794;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+#missatgeTemporitzador {
+  margin: 8px 0 12px;
+  color: #cbd5e1;
+  font-size: 11px;
+}
+
+.controls-temporitzador {
+  display: flex;
+  gap: 6px;
+}
+
+.controls-temporitzador button {
+  padding: 8px 4px;
+  font-size: 11px;
+}

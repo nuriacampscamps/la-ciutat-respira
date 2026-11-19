@@ -1,0 +1,12 @@
+
+{
+  "manifest_version": 3,
+  "name": "La Ciutat Respira",
+  "version": "1.0",
+  "description": "Un rellotge creatiu que representa el pas del temps a través d'una ciutat animada.",
+  "action": {
+    "default_title": "La Ciutat Respira",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
